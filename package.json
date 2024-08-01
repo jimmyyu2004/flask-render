@@ -1,0 +1,16 @@
+{
+  "name": "node-scripts",
+  "version": "1.0.0",
+  "description": "Node scripts for Flask backend",
+  "main": "scrape_google_test.js",
+  "scripts": {
+    "start": "node scrape_google_test.js"
+  },
+  "dependencies": {
+    "json2csv": "^6.0.0-alpha.2",
+    "playwright": "^1.15.0",
+    "playwright-extra": "^3.3.2",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0"
+  }
+}

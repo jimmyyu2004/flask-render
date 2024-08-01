@@ -5,7 +5,8 @@
   "main": "scrape_google_test.js",
   "scripts": {
     "start": "node scrape_google_test.js",
-    "postinstall": "playwright install"
+    "postinstall": "npx playwright install",
+    "preinstall": "bash ./install_playwright_dependencies.sh"
   },
   "dependencies": {
     "json2csv": "^6.0.0-alpha.2",

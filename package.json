@@ -4,7 +4,8 @@
   "description": "Node scripts for Flask backend",
   "main": "scrape_google_test.js",
   "scripts": {
-    "start": "node scrape_google_test.js"
+    "start": "node scrape_google_test.js",
+    "postinstall": "npx playwright install"
   },
   "dependencies": {
     "json2csv": "^6.0.0-alpha.2",
